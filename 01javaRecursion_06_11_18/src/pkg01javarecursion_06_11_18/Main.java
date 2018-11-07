@@ -33,7 +33,9 @@ public class Main {
         
         System.out.println("algoritmo"+algorithm1.factorial(4));
        // System.out.println("algoritmo"+algorithm1.factorialAcumulador(1,2));
-        System.out.println("algoritmo"+algorithm1.calcularFactorial(20));
+        System.out.println("algoritmo"+algorithm1.calcularFactorial(4));
+        System.out.println("gcdIterate"+algorithm1.gcdIterate(60,3));
+        System.out.println("gcdIterate"+algorithm1.gcdRecursive(60,3));
         
         
         

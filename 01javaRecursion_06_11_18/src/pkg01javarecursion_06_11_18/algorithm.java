@@ -60,5 +60,32 @@ public class algorithm {
      public  int  calcularFactorial(int n) {
         return factorialAcumulador( 1 , n);
     }
+     
+     
+     //2 7
+     //10 2
+     public  int  gcdIterate(int n1 , int n2) {
+         while (n2!=0) {             
+            int temp = n2;//2
+         n2 = n1 % n2;//10/2 ==0
+         n1=temp;
+             System.out.println("n1 :"+n1);// 2
+         }
+         
+        return n1;
+        
+        
+    }
+     
+      public  int  gcdRecursive(int n1 , int n2) {
+          
+          if(n2==0) return n1;
+          
+          return gcdRecursive(n2 , n1%n2);
+        
+        
+    }
+     
+     
 }
 
