@@ -47,7 +47,8 @@ public class Quickselect {
         swap(LastIndex, pivot);
 
         for (int i = firstIndex; i < LastIndex; i++) {
-
+       //  private int partition si dejo asi busca el mas grande sino ,nums[i] < nums[LastIndex] el mas chico
+       
             if (nums[i] > nums[LastIndex]) {
                 swap(i, firstIndex);
                 firstIndex++;
