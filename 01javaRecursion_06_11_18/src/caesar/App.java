@@ -16,7 +16,7 @@ public class App {
 		System.out.println(plainText);
                 
                 
-                System.out.println(caesarCipher.gustavo("{}}"));
+                System.out.println(caesarCipher.gustavo("{{}{}}]][["));
                 
                 //solo faltaria los primos :
                 

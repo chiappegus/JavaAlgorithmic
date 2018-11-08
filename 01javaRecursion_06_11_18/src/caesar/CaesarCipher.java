@@ -48,7 +48,11 @@ public class CaesarCipher {
 
 		//the encrypted message
 		String cipherText = "";
-                int numero=0;
+               
+                int numero1=0;
+                int numero2=0;
+                int numero3=0;
+                int numero4=0;
 		//we make the algorithm case insensitive
 		plainText = plainText.toUpperCase();
 
@@ -56,15 +60,24 @@ public class CaesarCipher {
 		for (int i = 0; i < plainText.length(); ++i) {
 			char character = plainText.charAt(i);
 			//find the numerical representation (index) associated with that character in the alphabet
-			if( Constants.CARACTERES.indexOf(character)>=0){
-                              numero++;
+			if( Constants.CARACTERES1.indexOf(character)>=0){
+                              numero1++;
                         }
-                        
+			if( Constants.CARACTERES2.indexOf(character)>=0){
+                              numero2++;
+                        }
+			if( Constants.CARACTERES3.indexOf(character)>=0){
+                              numero3++;
+                        }
+			if( Constants.CARACTERES4.indexOf(character)>=0){
+                              numero4++;
+                        }
+                   
                         
                           
 
 		}
-                if(numero%2==0){
+                if((numero1 -numero2)==0&&(numero3 -numero4)==0){
                            cipherText="Es correcto";
                         }
                 else {cipherText="Es Incorrecto";}
