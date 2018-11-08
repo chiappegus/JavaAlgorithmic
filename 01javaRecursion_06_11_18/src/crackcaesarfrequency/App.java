@@ -1,4 +1,4 @@
-package com.balazsholczer.crackcaesarfrequency;
+package crackcaesarfrequency;
 
 public class App {
 
