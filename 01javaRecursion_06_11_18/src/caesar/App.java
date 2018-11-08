@@ -17,31 +17,9 @@ public class App {
                 
                 
                 System.out.println(caesarCipher.gustavo("{{}{}}]][["));
+                System.out.println(caesarCipher.gustavo(3));
                 
-                //solo faltaria los primos :
-                
-                    //                def primo3(n):
-                    //	verificar= False
-                    //	contador=0
-                    //	for x in range(1,n+1):
-                    //		if(n%x==0):
-                    //				contador = contador +1 
-                    //				#return -1
-                    //		if (contador >= 3):
-                    //        		verificar=True
-                    //        		break #esto rompe el for!!		
-                    //	if(contador==2 or  verificar==False):
-                    //				
-                    //				return("es primo")
-                    //				#return -1
-                    //	else:
-                    //			return('NO es primo')	
-                    //
-                    //
-                    //		
-                    //
-                    //print(primo3(17))
-                    //                
+                        
                 
 		
 	}
