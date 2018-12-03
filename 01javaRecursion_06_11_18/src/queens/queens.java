@@ -27,7 +27,7 @@ public class queens {
         }
         
         else {
-            System.out.println("there is no ");
+            System.out.println("there is no Solution ");
         }
     }
     public void printQueens(){
@@ -67,6 +67,28 @@ public class queens {
     }
 
     private boolean isPlaceValid(int rowIndex, int colIndex) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+        
+        for (int i=0 ; i<colIndex ; i++){
+            
+            if(chessTable[rowIndex][i]==1){
+                return  false;
+            }
+        }
+        for (int j = rowIndex ,  p = colIndex ; j >= 0 && p >=0 ; j-- , p --) {
+                if(chessTable[j][p]==1) 
+                    return  false;
+            }
+        
+          for (int j = rowIndex ,  p = colIndex ; j<chessTable.length  && p >=0 ; j++ , p --) {
+                if(chessTable[j][p]==1) 
+                    return  false;
+            }
+        
+       
+        
+        
+       
+       return true;
     }
 }
