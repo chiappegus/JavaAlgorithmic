@@ -12,7 +12,7 @@ package quickselect;
 public class app {
     
     public static void main(String[] args) {
-        int[] nums = {1,5,4,8,-2};
+        int[] nums = {1,5,4,8,6,-2};
         
         Quickselect q = new Quickselect(nums);
         //aca busca el mas grande si es uno y sino busca si es 2 el segundo mas grande
