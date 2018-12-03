@@ -3,14 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/C:/Users/hpgus/Documents/NetBeansProjects/JavaAlgorithmic/01javaRecursion_06_11_18/src/pkg01javarecursion_06_11_18/algorithm.java</file>
-            <file>file:/C:/Users/hpgus/Documents/NetBeansProjects/JavaAlgorithmic/01javaRecursion_06_11_18/src/pkg01javarecursion_06_11_18/Main.java</file>
-            <file>file:/C:/Users/hpgus/Documents/NetBeansProjects/JavaAlgorithmic/01javaRecursion_06_11_18/src/pkg01javarecursion_06_11_18/algorithm01.java</file>
-=======
             <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/pkg01javarecursion_06_11_18/algorithm.java</file>
             <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/pkg01javarecursion_06_11_18/Main.java</file>
->>>>>>> 204e3af7c03caf0bc75f517cd26a330e3e4b3642
+            <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/caesar/CaesarCipher.java</file>
+            <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/caesar/App.java</file>
+            <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/quickselect/Quickselect.java</file>
+            <file>file:/C:/Users/gchiappe/Documents/NetBeansProjects/algorithmo/01javaRecursion_06_11_18/src/quickselect/app.java</file>
         </group>
     </open-files>
 </project-private>
